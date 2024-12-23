@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 10px;
+  /* margin-left: 11rem; */
+}
+.Hero-wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-image: url(images/hero\ section.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heroIcon {
+  padding: 10px;
+  font-size: 3rem;
+  color: #ca4c22;
+}
+.heroHeading h1 {
+  padding: 10px;
+  font-size: 8rem;
+}
+.heroHeading p {
+  padding: 10px;
+  font-size: 2rem;
+}
+/* .heroButton {
+  padding: 10px;
+} */
+.heroButton button {
+  width: 20%;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #ca4c22;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.about-wrap {
+  /* margin-left: 4rem; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.aboutChild1 {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutChild2 {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child1cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.child1cont h1 {
+  font-size: 4rem;
+}
+.child1cont img {
+  border-radius: 18px;
+  height: 70%;
+  width: 80%;
+}
+.child2cont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.child2cont p {
+  font-size: 1.5rem;
+}
+
+.child2cont button {
+  width: 30%;
+  padding: 10px;
+  color: #fff;
+  background-color: #ca4c22;
+  font-size: 1rem;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  /* text-align: center; */
+}
+
+.services-wrap {
+  height: 100vh;
+  background-color: #ca4c22;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.services-heading {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+.servicesCard-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.servicesCard {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.servicesCard img {
+  width: 100%;
+}
+.serviceCard-content i {
+  font-size: 2rem;
+}
+
+.testimonials-wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.testimonials-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+.testimonialsCard-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.testimonialsCard {
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.testimonialCard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.testimonialCard-content img {
+  width: 100%;
+}
+.testimonialCard-content i {
+  color: #ca4c22;
+}
+
+.contact-wrap {
+  display: flex;
+  height: 100vh;
+}
+.contactContent {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contactImage img {
+  height: 100%;
+}
+.contactContent-wrap {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around;*/
+  gap: 20px;
+}
+
+.contactContent h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 767px) {
+  .Hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hero-wrap {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .heroIcon {
+    /* padding: 10px; */
+    /* text-align: center; */
+    font-size: 2rem;
+    color: #ca4c22;
+  }
+  .heroHeading h1 {
+    /* padding: 10px; */
+    /* text-align: center; */
+    font-size: 3rem;
+  }
+  .heroHeading p {
+    /* padding: 10px; */
+    /* text-align: center; */
+    font-size: 1.5rem;
+  }
+  .heroButton button {
+    /* text-align: center; */
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ca4c22;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .about-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aboutChild1 {
+    height: 100%;
+    width: 100%;
+  }
+  .aboutChild2 {
+    height: 100%;
+    width: 100%;
+  }
+  .child1cont {
+    text-align: center;
+  }
+  .child2cont {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .child1cont h1 {
+    font-size: 2.5rem;
+  }
+  .child2cont button {
+    width: 70%;
+  }
+
+  .services-wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .servicesCard-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+  .servicesCard {
+    height: 100%;
+    width: 100%;
+  }
+  .serviceCard-content i {
+    font-size: 2rem;
+  }
+  .services-heading {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .testimonials-wrap {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .testimonials-heading h1 {
+    font-size: 2.5rem;
+  }
+  .testimonialsCard-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .testimonialsCard {
+    height: 100%;
+    width: 100%;
+  }
+
+  .contact-wrap {
+    height: 100%;
+    width: 100%;
+  }
+  .contact-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contactImage {
+    height: 50vh;
+    width: 100%;
+  }
+  .contactImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .contactContent {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
